@@ -1,0 +1,65 @@
+\documentclass[11pt,aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{times}
+\usepackage{import}
+\usepackage{steinmetz}
+\usepackage{mdframed}
+\usepackage{booktabs}
+
+%\graphicspath{{./figs/}}
+\graphicspath{{.}{figs/}} 
+\input{Parameters}
+
+\setbeamerfont{footnote}{size=\tiny}\let\thefootnote\relax
+
+\setbeamertemplate{footline}[frame number]
+\setbeamertemplate{navigation symbols}{}
+%\setbeamerfont{alerted text}{series=\color{structure}}
+\urlstyle{sf}
+
+%\setbeamertemplate{frametitle continuation}{\insertcontinuationcount}
+\setbeamertemplate{frametitle continuation}{}
+
+%\setbeamerfont{myTOC}{series=\bfseries,size=\Large}
+\AtBeginSection[]{\frame{\frametitle{Outline}\tableofcontents[current,hideothersubsections]}}%
+%------------------------------------------------------------------------
+\begin{document}
+	
+\subtitle{}
+\title{Title}
+
+\author[]{$<$Name$>$\\ \vspace{.5em}$<$Date$>$}
+	%13--17}
+%\institute[]{\small Aalto University\\ School of Electrical Engineering}
+%\date{Autumn 2016} 
+\date{}
+\begin{frame}
+\includegraphics[scale=.45]{Aalto_ELEC_y.png}\vspace{-.5Em}
+\titlepage
+\vspace{-3Em}
+%\includegraphics[scale=.5]{Aalto_ELEC.png}
+\end{frame}
+
+\begin{frame}{Introduction}
+\begin{itemize}
+    \item There has been several studies on identification of the induction motor parameters
+    \item A standstill identification method using integral calculation is proposed in [1]
+    \begin{itemize}
+    \item All the parameters are considered as constant
+    \item Magnetic saturation is not taken into account
+    \end{itemize}
+    \item  A magnetic saturation characteristic identification of IMs at standstill is introduced in [2]
+    \begin{itemize}
+     \item Based on some approximations about the behaviour of the motor in different frequencies
+    \item Obtained magnetic curve is compared with standard no-load tests which derive magnetic saturation curve
+    \end{itemize}
+\end{itemize}
+\footnote{[1] S. H. Lee and A. Yoo and H. J. Lee and Y. D. Yoon and B. M. Han, ``Identification of Induction Motor Parameters at Standstill Based on Integral Calculation,'' \emph{IEEE Trans. Ind. Applicat.}, vol. 53, no. 3, 2017.}
+\footnote{[2] S. A. Odhano and A. Cavagnino and R. Bojoi and A. Tenconi, ``Induction motor magnetizing characteristic identification at standstill with single-phase tests conducted through the inverter,'' \emph{ IEEE International Electric Machines Drives Conference (IEMDC)}, 2015.}
+\end{frame}
+
+
+\end{document}

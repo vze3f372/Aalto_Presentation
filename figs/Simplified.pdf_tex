@@ -1,0 +1,85 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Simplified.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{190.33419189bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.42467271)%
+    \put(1.73641917,-7.69560389){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{2.22202236\unitlength}\raggedright \end{minipage}}}%
+    \put(4.56853414,-14.00863792){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(7.62734396,5.87611634){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.64265349\unitlength}\raggedright \end{minipage}}}%
+    \put(7.85465641,5.83036775){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.30239927\unitlength}\raggedright \end{minipage}}}%
+    \put(1.61832135,-0.17127777){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.80368546,-0.00255191){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Simplified.pdf}}%
+    \put(0.57619504,0.16922609){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\dfrac{\D\psiRalpha}{\D t}$}}}%
+    \put(2.74778024,-8.16189241){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{2.22202236\unitlength}\raggedright \end{minipage}}}%
+    \put(5.57989516,-14.47492611){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(8.63870503,5.40982782){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.64265349\unitlength}\raggedright \end{minipage}}}%
+    \put(8.86601748,5.36407924){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.30239927\unitlength}\raggedright \end{minipage}}}%
+    \put(2.62968237,-0.63756626){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(1.81504655,-0.46884043){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(1.92556017,-8.47318357){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{2.22202236\unitlength}\raggedright \end{minipage}}}%
+    \put(4.75767515,-14.7862176){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(7.81648496,5.09853666){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.64265349\unitlength}\raggedright \end{minipage}}}%
+    \put(8.04379741,5.05278807){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.30239927\unitlength}\raggedright \end{minipage}}}%
+    \put(1.80746236,-0.94885743){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.99282647,-0.7801316){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.94992361,0.17328182){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\RR$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Simplified.pdf}}%
+    \put(0.81372505,0.37933186){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\iRalpha$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Simplified.pdf}}%
+    \put(0.24789819,0.38018248){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\ialpha$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Simplified.pdf}}%
+    \put(0.05261305,0.16497297){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\uM$}}}%
+    \put(0.51436672,0.16497297){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\LM$}}}%
+    \put(0.31901953,0.16497297){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\dfrac{\D\psisalpha}{\D t}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Simplified.pdf}}%
+    \put(0.61106297,0.39879717){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\Lsgm$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Simplified.pdf}}%
+  \end{picture}%
+\endgroup%

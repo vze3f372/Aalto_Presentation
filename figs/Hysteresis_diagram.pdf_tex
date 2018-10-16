@@ -1,0 +1,76 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Hysteresis_diagram.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{332.22278919bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.6809977)%
+    \put(1.47986822,-0.17479648){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Hysteresis_diagram.pdf}}%
+    \put(0.47785034,0.65993858){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\ualpha_\scr{,ref}(k)$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Hysteresis_diagram.pdf}}%
+    \put(0.93778269,0.14221375){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{M}}}%
+    \put(0.48698153,0.54012027){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\usref$}}}%
+    \put(0.57459332,0.37018106){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\ialpha(k)$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Hysteresis_diagram.pdf}}%
+    \put(0.5260108,0.26261485){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\ualpha(k)$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Hysteresis_diagram.pdf}}%
+    \put(0.12868706,0.63585836){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\ialpha_\scr{,max}$}}}%
+    \put(0.42968989,0.02181258){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\psisalpha(k)$}}}%
+    \put(0.40915565,0.42605256){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$z^{-1}$}}}%
+    \put(0.72061299,0.54598025){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{PWM}}}%
+    \put(0.51618546,0.54305026){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$z^{-1}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Hysteresis_diagram.pdf}}%
+    \put(0.30883755,0.18266189){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Flux}}}%
+    \put(0.31467833,0.1357821){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{calculation}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Hysteresis_diagram.pdf}}%
+    \put(0.2490882,0.58769792){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Hysteresis}}}%
+    \put(0.2490882,0.53712945){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{controller}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Hysteresis_diagram.pdf}}%
+    \put(0.83905372,0.67197873){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$U_\scr{dc}$}}}%
+  \end{picture}%
+\endgroup%

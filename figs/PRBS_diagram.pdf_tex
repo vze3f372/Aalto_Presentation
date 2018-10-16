@@ -1,0 +1,75 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'PRBS_diagram.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{280.26813478bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.80723753)%
+    \put(1.5688237,-0.20719935){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{PRBS_diagram.pdf}}%
+    \put(0.38105694,0.78227458){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\ualpha_\scr{,ref}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{PRBS_diagram.pdf}}%
+    \put(0.92624917,0.1685766){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{M}}}%
+    \put(0.39188082,0.64024497){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\usref$}}}%
+    \put(0.49573363,0.4388033){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\ialpha(k)$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{PRBS_diagram.pdf}}%
+    \put(0.43814513,0.31129703){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\ualpha(k)$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{PRBS_diagram.pdf}}%
+    \put(0.32396876,0.02585608){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\psisalpha(k)$}}}%
+    \put(0.29962798,0.50503197){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$z^{-1}$}}}%
+    \put(0.66882167,0.64719124){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{PWM}}}%
+    \put(0.42649843,0.6437181){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$z^{-1}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{PRBS_diagram.pdf}}%
+    \put(0.18071344,0.21652281){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Flux}}}%
+    \put(0.18763695,0.16095268){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{calculation}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{PRBS_diagram.pdf}}%
+    \put(0.10988806,0.69664232){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{PRBS}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{PRBS_diagram.pdf}}%
+    \put(0.80921834,0.79654666){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$U_\scr{dc}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{PRBS_diagram.pdf}}%
+  \end{picture}%
+\endgroup%

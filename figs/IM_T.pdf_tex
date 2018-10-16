@@ -1,0 +1,90 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'IM_T.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{222.94686279bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.36957559)%
+    \put(1.4777902,-6.56060285){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.89698489\unitlength}\raggedright \end{minipage}}}%
+    \put(3.89562335,-11.95016615){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(6.50699041,5.02584592){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.40236611\unitlength}\raggedright \end{minipage}}}%
+    \put(6.70105159,4.98678944){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.11188429\unitlength}\raggedright \end{minipage}}}%
+    \put(1.37696774,-0.13693527){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.6814968,0.00710937){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{IM_T.pdf}}%
+    \put(0.67366114,0.1501287){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\dfrac{\D\psir}{\D t}$}}}%
+    \put(2.34120936,-6.95868267){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.89698489\unitlength}\raggedright \end{minipage}}}%
+    \put(4.75904246,-12.3482457){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(7.37040957,4.62776609){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.40236611\unitlength}\raggedright \end{minipage}}}%
+    \put(7.56447075,4.58870961){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.11188429\unitlength}\raggedright \end{minipage}}}%
+    \put(2.24038685,-0.53501508){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(1.54491596,-0.39097047){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(1.63926365,-7.22443816){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.89698489\unitlength}\raggedright \end{minipage}}}%
+    \put(4.0570968,-12.61400146){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(6.66846386,4.36201061){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.40236611\unitlength}\raggedright \end{minipage}}}%
+    \put(6.86252505,4.32295413){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.11188429\unitlength}\raggedright \end{minipage}}}%
+    \put(1.53844119,-0.80077057){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.84297025,-0.65672596){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{IM_T.pdf}}%
+    \put(0.93201855,0.1501287){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\jj\omegam\psir$}}}%
+    \put(0.57677707,0.34748513){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\Lrsgm$}}}%
+    \put(0.73492153,0.34748513){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\Rr$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{IM_T.pdf}}%
+    \put(0.83359975,0.33313117){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\ir$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{IM_T.pdf}}%
+    \put(0.0995333,0.33313117){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\is$}}}%
+    \put(0.19282907,0.34748513){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\Rs$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{IM_T.pdf}}%
+    \put(0.04029127,0.1501287){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\us$}}}%
+    \put(0.4560294,0.1501287){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\Lm$}}}%
+    \put(0.26772781,0.1501287){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\dfrac{\D\psis}{\D t}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{IM_T.pdf}}%
+    \put(0.36147913,0.34748513){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\Lssgm$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{IM_T.pdf}}%
+    \put(0.45342228,0.24701278){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\im$}}}%
+  \end{picture}%
+\endgroup%

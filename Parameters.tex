@@ -1,0 +1,326 @@
+% ------------------------------------------------------------------------
+% General commands
+%\newcommand{\vect}[1]{\boldsymbol{#1}}  % Space vector
+\newcommand{\vect}[1]{\underline{#1}}    % Space vector
+\newcommand{\vecto}[1]{\boldsymbol{#1}}  % Vector
+\newcommand{\matr}[1]{\boldsymbol{#1}}   % Matrix
+%\newcommand{\scr}[1]{\mathrm{#1}}       % Super- or subscript
+\newcommand{\scr}[1]{\text{#1}}          % Super- or subscript
+%\newcommand{\scr}[1]{{#1}}
+%\newcommand{\cmp}[1]{\underline{#1}}    % Complex-valued variable
+\newcommand{\cmp}[1]{\underline{#1}}     % Complex-valued variable
+\newcommand{\ave}[1]{\overline{#1}}      % Space vector
+\graphicspath{{figs/}}           % Inkscapen pdflatex kuvien polku
+\sloppy \frenchspacing
+
+\newcommand{\hili}[1]{{\color{structure}#1}}       % Super- or subscript
+%\setbeamerfont{alerted text}{series=\color{structure}}
+
+% ------------------------------------------------------------------------
+% Operators
+\DeclareMathOperator{\RE}{Re}
+\DeclareMathOperator{\IM}{Im}
+\DeclareMathOperator{\SIGN}{sign}
+\newcommand{\D}{\scr{d}}
+\newcommand{\pD}{\partial}
+\newcommand{\jj}{\scr{j}}
+\newcommand{\T}{\scr{T}}                % Transpose
+\newcommand{\e}{\scr{e}}                % Exponent
+
+% ------------------------------------------------------------------------
+% For figures
+\newcommand{\SC}{\shortstack{Speed\vspace{-.05cm}\\ controller}}
+\newcommand{\CC}{\shortstack{Current\\ controller}}
+\newcommand{\TC}{\shortstack{Current\\ reference}}
+\newcommand{\REF}{\shortstack{Current\\ reference}}
+\newcommand{\VC}{\shortstack{Voltage\\ controller}}
+
+% ------------------------------------------------------------------------
+% Space-vector variables
+\newcommand{\us}{\vect{u}_\scr{s}}
+\newcommand{\uss}{\vect{u}_\scr{s}}
+
+\newcommand{\ussref}{\vect{u}_\scr{s,ref}}
+\newcommand{\iss}{\vect{i}_\scr{s}}
+\newcommand{\iMs}{\vect{i}_\scr{M}}
+\newcommand{\iMsp}{\vect{i}_\scr{M}^{\prime}}
+\newcommand{\iRs}{\vect{i}_\scr{R}}
+\newcommand{\iRsp}{\vect{i}_\scr{R}^{\prime}}
+\newcommand{\psiRs}{\vect{\psi}_\scr{R}}
+\newcommand{\psiss}{\vect{\psi}_\scr{s}}
+\newcommand{\psiRsp}{\vect{\psi}_\scr{R}^{\prime}}
+\newcommand{\psirs}{\vect{\psi}_\scr{r}}
+
+\newcommand{\is}{\vect{i}_\scr{s}}
+\newcommand{\es}{\vect{e}_\scr{s}}
+\newcommand{\ir}{\vect{i}_\scr{r}}
+\newcommand{\irs}{\vect{i}_\scr{r}}
+
+\newcommand{\ur}{\vect{u}_\scr{r}}
+\newcommand{\urs}{\vect{u}_\scr{r}}
+\newcommand{\uR}{\vect{u}_\scr{R}}
+\newcommand{\im}{\vect{i}_\scr{m}}
+\newcommand{\psis}{\vect{\psi}_\scr{s}}
+\newcommand{\psir}{\vect{\psi}_\scr{r}}
+\newcommand{\psiR}{\vect{\psi}_\scr{R}}
+\newcommand{\psisgm}{\vect{\psi}_\sigma}
+
+\newcommand{\iR}{\vect{i}_\scr{R}}
+%\newcommand{\iM}{\vect{i}_\scr{M}}
+\newcommand{\abspsis}{\psi_\scr{s}}
+\newcommand{\abspsir}{\psi_\scr{r}}
+\newcommand{\abspsiR}{\psi_\scr{R}}
+\newcommand{\absis}{i_\scr{s}}
+\newcommand{\absiR}{i_\scr{R}}
+\newcommand{\absiM}{i_\scr{M}}
+\newcommand{\psiRref}{\psi_\scr{R,ref}}
+\newcommand{\usref}{\vect{u}_\scr{s,ref}}
+\newcommand{\isref}{\vect{i}_\scr{s,ref}}
+
+\newcommand{\hatpsiR}{\hat{\vect{\psi}}_\scr{R}}
+\newcommand{\hatpsis}{\hat{\vect{\psi}}_\scr{s}}
+\newcommand{\hatpsiss}{\hat{\vect{\psi}}_\scr{s}^\scr{s}}
+\newcommand{\hatpsiRs}{\hat{\vect{\psi}}_\scr{R}^\scr{s}}
+\newcommand{\hatthetam}{\hat \vartheta_\scr{m}}
+\newcommand{\dthetam}{\tilde \vartheta_\scr{m}}
+\newcommand{\hatRs}{\hat R_\scr{s}}
+\newcommand{\hatis}{\hat{\vect{i}}_\scr{s}}
+\newcommand{\hatpsif}{\hat \psi_\scr{f}}
+\newcommand{\hatLd}{\hat L_{\scr{d}}}
+\newcommand{\hatLq}{\hat L_{\scr{q}}}
+\newcommand{\dis}{\tilde{\vect{i}}_\scr{s}}
+
+\newcommand{\hatthetapsis}{\hat \vartheta_{\psi\scr{s}}}
+\newcommand{\thetapsis}{\vartheta_{\psi\scr{s}}}
+\newcommand{\thetapsiR}{\vartheta_{\psi\scr{R}}}
+\newcommand{\psisref}{\psi_\scr{s,ref}}
+
+
+% --------------------------------------------------------------------------------------------------------
+% Parameters
+\newcommand{\Lsgm}{L_\sigma}
+\newcommand{\Rs}{R_\scr{s}}
+\newcommand{\RR}{R_\scr{R}}
+\newcommand{\RRp}{R^{\prime}_\scr{R}}
+\newcommand{\LM}{L_\scr{M}}
+\newcommand{\LMp}{L^{\prime}_\scr{M}}
+\newcommand{\Rr}{R_\scr{r}}
+\newcommand{\Ls}{L_\scr{s}}
+\newcommand{\Lr}{L_\scr{r}}
+\newcommand{\Lm}{L_\scr{m}}
+\newcommand{\Lssgm}{L_{\scr{s}\sigma}}
+\newcommand{\Lrsgm}{L_{\scr{r}\sigma}}
+\newcommand{\Lsgmp}{L^{\prime}_\sigma}
+
+\newcommand{\hatLM}{\hat L_\scr{M}}
+\newcommand{\hatRR}{\hat R_\scr{R}}
+\newcommand{\hatLsgm}{\hat L_\sigma}
+
+\newcommand{\Ld}{L_\scr{d}}
+\newcommand{\Lq}{L_\scr{q}}
+
+\newcommand{\psif}{\psi_\scr{f}}
+
+% ------------------------------------------------------------------------
+% Angular frequencies
+\newcommand{\omegar}{\omega_\scr{r}}
+\newcommand{\omegam}{\omega_\scr{m}}
+\newcommand{\omegaM}{\omega_\scr{M}}
+\newcommand{\omegaN}{\omega_\scr{N}}
+\newcommand{\omegamN}{\omega_\scr{mN}}
+\newcommand{\omegasN}{\omega_\scr{sN}}
+\newcommand{\omegas}{\omega_\scr{s}}
+\newcommand{\omegasref}{\omega_\scr{s,ref}}
+\newcommand{\omegaMref}{\omega_\scr{M,ref}}
+\newcommand{\omegamref}{\omega_\scr{m,ref}}
+\newcommand{\thetas}{\vartheta_\scr{s}}
+\newcommand{\thetam}{\vartheta_\scr{m}}
+\newcommand{\hatthetas}{\hat \vartheta_\scr{s}}
+\newcommand{\hatomegas}{\hat \omega_\scr{s}}
+\newcommand{\hatomegam}{\hat \omega_\scr{m}}
+\newcommand{\hatomegaM}{\hat \omega_\scr{M}}
+\newcommand{\hatomegar}{\hat \omega_\scr{r}}
+\newcommand{\thetaM}{\vartheta_\scr{M}}
+
+% --------------------------------------------------------------------------------------------------------
+% Torque
+\newcommand{\Te}{T_\scr{M}}
+\newcommand{\hatTe}{\hat T_\scr{M}}
+\newcommand{\TM}{T_\scr{M}}
+\newcommand{\TL}{T_\scr{L}}
+\newcommand{\TN}{T_\scr{N}}
+\newcommand{\Teref}{T_\scr{M,ref}}
+\newcommand{\Tb}{T_\scr{b}}
+\newcommand{\omegab}{\omega_\scr{rb}}
+\newcommand{\PL}{P_\scr{L}}
+
+% ------------------------------------------------------------------------
+\newcommand{\hatabspsiR}{\hat{\psi}_\scr{R}}
+\newcommand{\abspsipm}{\psi_\scr{f}}
+\newcommand{\imax}{i_\scr{max}}
+
+\newcommand{\ua}{u_\scr{a}}
+\newcommand{\ub}{u_\scr{b}}
+\newcommand{\uc}{u_\scr{c}}
+\newcommand{\ud}{u_\scr{d}}
+\newcommand{\uq}{u_\scr{q}}
+\newcommand{\iRd}{i_\scr{Rd}}
+\newcommand{\iRq}{i_\scr{Rq}}
+
+\newcommand{\ia}{i_\scr{a}}
+\newcommand{\ib}{i_\scr{b}}
+\newcommand{\ic}{i_\scr{c}}
+\newcommand{\isa}{i_\scr{a}}
+\newcommand{\isb}{i_\scr{b}}
+\newcommand{\isc}{i_\scr{c}}
+%\newcommand{\usa}{u_\scr{a}}
+\newcommand{\usb}{u_\scr{b}}
+\newcommand{\usc}{u_\scr{c}}
+\newcommand{\usaref}{u_\scr{a,ref}}
+\newcommand{\usbref}{u_\scr{b,ref}}
+\newcommand{\uscref}{u_\scr{c,ref}}
+\newcommand{\uaref}{u_\scr{a,ref}}
+\newcommand{\ubref}{u_\scr{b,ref}}
+\newcommand{\ucref}{u_\scr{c,ref}}
+\newcommand{\daref}{d_\scr{a}}
+\newcommand{\dbref}{d_\scr{b}}
+\newcommand{\dcref}{d_\scr{c}}
+\newcommand{\qa}{q_\scr{a}}
+\newcommand{\qb}{q_\scr{b}}
+\newcommand{\qc}{q_\scr{c}}
+\newcommand{\da}{d_\scr{a}}
+\newcommand{\db}{d_\scr{b}}
+\newcommand{\dc}{d_\scr{c}}
+\newcommand{\uaN}{u_\scr{aN}}
+\newcommand{\ubN}{u_\scr{bN}}
+\newcommand{\ucN}{u_\scr{cN}}
+\newcommand{\Udc}{U_\scr{dc}}
+
+\newcommand{\alphac}{\alpha_\scr{c}}
+\newcommand{\Ts}{T_\scr{s}}
+\newcommand{\Ra}{R_\scr{a}}
+\newcommand{\kp}{k_\scr{p}}
+\newcommand{\ki}{k_\scr{i}}
+
+\newcommand{\psisd}{\psi_\scr{d}}
+\newcommand{\psisq}{\psi_\scr{q}}
+\newcommand{\psiRd}{\psi_\scr{Rd}}
+\newcommand{\psiRq}{\psi_\scr{Rq}}
+\newcommand{\psiRalpha}{\psi_{\scr{R}\alpha}}
+\newcommand{\psiRbeta}{\psi_{\scr{R}\beta}}
+\newcommand{\usd}{u_\scr{d}}
+\newcommand{\usq}{u_\scr{q}}
+\newcommand{\isd}{i_\scr{d}}
+\newcommand{\isq}{i_\scr{q}}
+\newcommand{\isdref}{i_\scr{d,ref}}
+\newcommand{\isqref}{i_\scr{q,ref}}
+%\newcommand{\isalpha}{i_{\alpha}}
+%\newcommand{\isbeta}{i_{\beta}}
+\newcommand{\id}{i_\scr{d}}
+\newcommand{\iq}{i_\scr{q}}
+\newcommand{\idref}{i_\scr{d,ref}}
+\newcommand{\iqref}{i_\scr{q,ref}}
+\newcommand{\psid}{\psi_\scr{d}}
+\newcommand{\psiq}{\psi_\scr{q}}
+
+\newcommand{\Tr}{\tau_\scr{r}}
+\newcommand{\Zs}{\cmp{Z}_\scr{s}}
+\newcommand{\fsw}{f_\scr{sw}}
+\newcommand{\Tsw}{T_\scr{sw}}
+
+\newcommand{\udc}{u_\scr{dc}}
+\newcommand{\idc}{i_\scr{dc}}
+\newcommand{\uga}{u_\scr{ga}}
+\newcommand{\ugb}{u_\scr{gb}}
+\newcommand{\ugc}{u_\scr{gc}}
+\newcommand{\iga}{i_\scr{ga}}
+\newcommand{\igb}{i_\scr{gb}}
+\newcommand{\igc}{i_\scr{gc}}
+\newcommand{\ug}{\vect{u}_\scr{g}}
+\newcommand{\ugd}{u_\scr{gd}}
+\newcommand{\ugq}{u_\scr{gq}}
+\newcommand{\ig}{\vect{i}_\scr{g}}
+\newcommand{\igd}{i_\scr{gd}}
+\newcommand{\igq}{i_\scr{gq}}
+\newcommand{\omegag}{\omega_\scr{g}}
+\newcommand{\pref}{p_\scr{ref}}
+\newcommand{\qref}{q_\scr{ref}}
+\newcommand{\Pref}{P_\scr{ref}}
+\newcommand{\Qref}{Q_\scr{ref}}
+\newcommand{\udcref}{u_\scr{dc,ref}}
+
+\newcommand{\umax}{u_\scr{max}}
+
+\newcommand{\PM}{P_\scr{M}}
+
+\newcommand{\Pin}{P_\scr{in}}
+\newcommand{\Pout}{P_\scr{out}}
+\newcommand{\Ploss}{P_\scr{d}}
+
+\newcommand{\La}{L_\scr{a}}
+\newcommand{\ea}{e_\scr{a}}
+\newcommand{\eb}{e_\scr{b}}
+\newcommand{\ec}{e_\scr{c}}
+\newcommand{\kf}{k_\scr{f}}
+
+ % Grid converter
+\newcommand{\ica}{i_\scr{ca}}
+\newcommand{\icb}{i_\scr{cb}}
+\newcommand{\icc}{i_\scr{cc}}
+
+\newcommand{\icd}{i_\scr{cd}}
+\newcommand{\icq}{i_\scr{cq}}
+\newcommand{\ucd}{u_\scr{cd}}
+\newcommand{\ucq}{u_\scr{cq}}
+
+\newcommand{\vic}{\vect{i}_\scr{c}}
+\newcommand{\vuc}{\vect{u}_\scr{c}}
+\newcommand{\uref}{\vect{u}_\scr{ref}}
+\newcommand{\igref}{\vect{i}_\scr{ref}}
+
+\renewcommand{\thetag}{\vartheta_\scr{g}}
+\newcommand{\hatthetag}{\hat \vartheta_\scr{g}}
+\newcommand{\hatomegag}{\hat \omega_\scr{g}}
+\newcommand{\igdref}{i_\scr{d,ref}}
+\newcommand{\igqref}{i_\scr{q,ref}}
+\newcommand{\icdref}{i_\scr{cd,ref}}
+\newcommand{\icqref}{i_\scr{cq,ref}}
+
+\newcommand{\ugabc}{u_\scr{g,abc}}
+\newcommand{\icabc}{i_\scr{abc}}
+
+\newcommand{\ugab}{u_\scr{g,ab}}
+\newcommand{\ugbc}{u_\scr{g,bc}}
+\newcommand{\ugca}{u_\scr{g,ca}}
+\newcommand{\psia}{\psi_\scr{a}}
+\newcommand{\pg}{p_\scr{g}}
+\newcommand{\qg}{q_\scr{g}}
+\newcommand{\pc}{p_\scr{c}}
+\newcommand{\pgref}{p_\scr{g,ref}}
+\newcommand{\qgref}{q_\scr{g,ref}}
+
+\newcommand{\vicref}{\vect{i}_\scr{c,ref}}
+\newcommand{\vucref}{\vect{u}_\scr{c,ref}}
+\newcommand{\pcref}{p_\scr{c,ref}}
+\newcommand{\Lf}{L_\scr{f}}
+\newcommand{\Rf}{R_\scr{f}}
+
+
+% Differential equation
+\newcommand{\xh}{x_\scr{h}}
+\newcommand{\xp}{x_\scr{p}}
+\newcommand{\Ts}{T_\scr{s}}
+
+
+
+% Single axis parameters
+\newcommand{\ualpha}{u_{\alpha}}
+\newcommand{\ubeta}{u_{\beta}}
+\newcommand{\psisalpha}{\psi_{\scr{s}\alpha}}
+\newcommand{\psisbeta}{\psi_{\scr{s}\beta}}
+\newcommand{\ialpha}{i_{\alpha}}
+\newcommand{\ibeta}{i_{\beta}}
+\newcommand{\psiRalpha}{\psi_{\scr{R}\alpha}}
+\newcommand{\iRalpha}{i_{\scr{R}\alpha}}
+\newcommand{\iM}{i_\scr{M}}
+\newcommand{\uM}{u_{M}}

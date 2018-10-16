@@ -1,0 +1,86 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Simplified_withresistance.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{198.04044189bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.40814763)%
+    \put(1.70776325,-7.39614866){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{2.1355579\unitlength}\raggedright \end{minipage}}}%
+    \put(4.42967354,-13.46352671){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(7.36945739,5.64746192){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.57873373\unitlength}\raggedright \end{minipage}}}%
+    \put(7.58792455,5.60349353){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.25171965\unitlength}\raggedright \end{minipage}}}%
+    \put(1.59426092,-0.16461292){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.81132455,-0.0024526){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Simplified_withresistance.pdf}}%
+    \put(0.59268635,0.16264108){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\dfrac{\D\psiRalpha}{\D t}$}}}%
+    \put(2.67976973,-7.84429272){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{2.1355579\unitlength}\raggedright \end{minipage}}}%
+    \put(5.40167996,-13.91167045){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(8.34146387,5.19931786){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.57873373\unitlength}\raggedright \end{minipage}}}%
+    \put(8.55993102,5.15534947){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.25171965\unitlength}\raggedright \end{minipage}}}%
+    \put(2.56626735,-0.61275696){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(1.78333104,-0.45059668){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(1.8895443,-8.14347076){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{2.1355579\unitlength}\raggedright \end{minipage}}}%
+    \put(4.61145459,-14.21084881){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(7.55123844,4.90013982){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.57873373\unitlength}\raggedright \end{minipage}}}%
+    \put(7.7697056,4.85617142){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.25171965\unitlength}\raggedright \end{minipage}}}%
+    \put(1.77604197,-0.91193501){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.99310561,-0.74977473){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.9518722,0.16653899){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\RR$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Simplified_withresistance.pdf}}%
+    \put(0.82097347,0.36457111){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\iRalpha$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Simplified_withresistance.pdf}}%
+    \put(0.15597699,0.36538862){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\ialpha$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Simplified_withresistance.pdf}}%
+    \put(0.08947825,0.15855346){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\usalpha$}}}%
+    \put(0.53326393,0.15855346){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\LM$}}}%
+    \put(0.34551819,0.15855346){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\dfrac{\D\psisalpha}{\D t}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Simplified_withresistance.pdf}}%
+    \put(0.62619749,0.38327897){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\Lsgm$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Simplified_withresistance.pdf}}%
+    \put(0.27312725,0.38126081){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\Rs$}}}%
+  \end{picture}%
+\endgroup%

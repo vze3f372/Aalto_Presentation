@@ -125,10 +125,11 @@ Autumn 2017}
 \begin{column}{.43\textwidth}
 \begin{itemize}
     \item The voltage $u_{M}$  is known
-    \item The stator current $\isalpha$ is a defined variable
+    \item The stator current %$\isalpha$ 
+    is a defined variable
     \item Samples of the discrete-time model are taken
-    \item Each sample contains information about the leakage inductance ($L_{\sigma}$), magnetizing inductance ($L_{M}$) non-linear function and rotor resistance ($R_{R}$)
-\end{itemize}
+    \item Each sample contains information about the leakage inductance ($L_{\sigma}$), magnetizing inductance  non-linear function and rotor resistance
+    \end{itemize}
 \end{column}
 \begin{column}{.53\textwidth}
 \begin{center}
@@ -152,12 +153,12 @@ Autumn 2017}
 			\item Voltage equations are as same as T model
 			\item Flux equations in stator coordinates
 				\begin{align*}
-			&\psis=\LM(\is+\iR)\\
-			&\psiR=\LM\is+(\Lsgm+\LM)\iR
+			%&\psis=\LM(\is+\iR)\\
+			%&\psiR=\LM\is+(\Lsgm+\LM)\iR
 			\end{align*}
 			\item The scaling factor $\gamma$ is chosen as
 			\begin{align*}
-	     	\gamma=\Ls/\Lm
+	     	%\gamma=\Ls/\Lm
 			\end{align*}
 		\end{itemize}
 	\end{column}
@@ -171,9 +172,9 @@ Autumn 2017}
 	\item Motor parameters are defined as
 	\end{itemize}
 	\begin{align*}
-&\LM=\gamma\Lm=\Ls\\
-&\Lsgm=\gamma\Lssgm+\gamma^{2}\Lrsgm\\
-&\RR=\gamma^{2}\Rr
+%&\LM=\gamma\Lm=\Ls\\
+%&\Lsgm=\gamma\Lssgm+\gamma^{2}\Lrsgm\\
+%&\RR=\gamma^{2}\Rr
 \end{align*}
 \end{column}
 \end{columns}
@@ -197,7 +198,7 @@ Autumn 2017}
 	\item One axis is excited 
 	\item Voltage drop caused by the stator resistance is
 	\begin{align*}
-	    \uM=\ualpha-\Rs\ialpha
+%	    \uM=\ualpha-\Rs\ialpha
 	\end{align*} 
 
 \end{itemize}
@@ -211,8 +212,8 @@ Autumn 2017}
 \begin{itemize}
 \item Voltage equations are reduced to 
 	\begin{align*}
-	&\frac{\D\psisalpha}{\D t}=\uM\\
-	&\frac{\D\psiRalpha}{\D t}=-\RR\iRalpha
+%	&\frac{\D\psisalpha}{\D t}=\uM\\
+%	&\frac{\D\psiRalpha}{\D t}=-\RR\iRalpha
 	\end{align*}
 \end{itemize}
 \end{column}
@@ -225,34 +226,34 @@ Autumn 2017}
 	\item Based on the voltage and flux equations continuous-time state space matrices are obtained
 	\begin{align*}
 &\begin{bmatrix}
-\dot{\psisalpha} \\ 
-\dot{\psiRalpha}
+%\dot{\psisalpha} \\ 
+%\dot{\psiRalpha}
 \end{bmatrix}
 =\begin{bmatrix}
 0 & 0\\
 \frac{\RR}{\Lsgm} & -\frac{\RR}{\Lsgm}
 \end{bmatrix}
 \begin{bmatrix}
-\psisalpha\\
-\psiRalpha
+%\psisalpha\\
+%\psiRalpha
 \end{bmatrix}
 +\begin{bmatrix}
 1\\
 0
 \end{bmatrix}
-\uM\\
+%\uM\\
 &\begin{bmatrix}
-\ialpha\\
-\iRalpha
+%\ialpha\\
+%\iRalpha
 \end{bmatrix}
 =
 \begin{bmatrix}
-\frac{\LM+\Lsgm}{\LM\Lsgm} & -\frac{1}{\Lsgm}\\
--\frac{1}{\Lsgm} & \frac{1}{\Lsgm}
+%\frac{\LM+\Lsgm}{\LM\Lsgm} & -\frac{1}{\Lsgm}\\
+%-\frac{1}{\Lsgm} & \frac{1}{\Lsgm}
 \end{bmatrix}
 \begin{bmatrix}
-\psisalpha\\
-\psiRalpha
+%\psisalpha\\
+%\psiRalpha
 \end{bmatrix}
 \end{align*}
 
@@ -263,12 +264,12 @@ Autumn 2017}
 \Phi=
 \begin{bmatrix}
 1 & 0\\
-1-e^{-\frac{\RR\Ts}{L_{\sigma}}} & e^{-\frac{\RR\Ts}{\Lsgm}}
+%1-e^{-\frac{\RR\Ts}{L_{\sigma}}} & e^{-\frac{\RR\Ts}{\Lsgm}}
 \end{bmatrix} ,  \quad 
 \Gamma=
 \begin{bmatrix}
 \Ts\\
-\Ts+\frac{\Lsgm(e^{-\frac{\RR\Ts}{\Lsgm}}-1)}{\RR}
+%\Ts+\frac{\Lsgm(e^{-\frac{\RR\Ts}{\Lsgm}}-1)}{\RR}
 \end{bmatrix}
 \end{align*}
 \item For the discrete-time model, pulse width modulator (PWM) is modeled as a zero-order hold (ZOH)
@@ -281,7 +282,7 @@ Autumn 2017}
 \item Leakage inductance is assumed constant 
 \item A simple rational function for the magnetizing inductance can be used utilized
     \begin{align*}
-\LM(\psi_\scr{s})=\frac{1}{c_{0}+c_\scr{s}\abs{\psi_\scr{s}}^{S}}
+%\LM(\psi_\scr{s})=\frac{1}{c_{0}+c_\scr{s}\abs{\psi_\scr{s}}^{S}}
 \end{align*}
 \item $c_{0}$ is the inverse unsaturated inductance
 \item $c_\scr{s}$ is a non-negative coefficient 
@@ -310,17 +311,17 @@ Autumn 2017}
 	 \item One axis ($\alpha$-axis) is excited only
 	 \item The control law for the hysteresis controller is
 	 \begin{align*}
-	 \ualpha_\scr{,ref}(k)=
+%	 \ualpha_\scr{,ref}(k)=
 	 \begin{cases}
-	 \ualpha_\scr{,out} &\text{if}\quad \ialpha(k)<-\ialpha_\scr{,max}\\
+%	 \ualpha_\scr{,out} &\text{if}\quad \ialpha(k)<-\ialpha_\scr{,max}\\
 	 -\ualpha_\scr{,out} &\text{if}\quad \ialpha(k)>\ialpha_\scr{,max}\\
 	 \ualpha_\scr{,ref}(k-1) &\text{otherwise}
 	 \end{cases}
 	 \end{align*}
-	\item where $\ubeta_\scr{,ref}(k)=0$
+%	\item where $\ubeta_\scr{,ref}(k)=0$
 	\item A simple forward Euler approximation is used for the flux estimation
 	\begin{equation*}
-	\psisalpha(k+1)=\psisalpha(k)+\Ts[\ualpha(k)-\Rs\isalpha(k)]
+%	\psisalpha(k+1)=\psisalpha(k)+\Ts[\ualpha(k)-\Rs\isalpha(k)]
 	\end{equation*}
 \end{itemize}
 

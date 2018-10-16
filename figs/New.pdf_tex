@@ -67,17 +67,17 @@
     \put(7.82723398,4.93104849){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.26235666\unitlength}\raggedright \end{minipage}}}%
     \put(1.78263671,-0.88607482){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
     \put(0.99304702,-0.72253652){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.95146322,0.20156396){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\RR$}}}%
+   % \put(0.95146322,0.20156396){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\RR$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{New.pdf}}%
-    \put(0.14880455,0.4021034){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\ialpha$}}}%
+    %\put(0.14880455,0.4021034){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\ialpha$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{New.pdf}}%
-    \put(0.08174071,0.19351056){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\ualpha$}}}%
-    \put(0.52929765,0.19351056){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\LM$}}}%
+   % \put(0.08174071,0.19351056){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\ualpha$}}}%
+    %\put(0.52929765,0.19351056){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\LM$}}}%
     \put(0.33995646,0.19351056){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$u_\scr{M}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{New.pdf}}%
-    \put(0.62302094,0.42014577){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\Lsgm$}}}%
+   % \put(0.62302094,0.42014577){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\Lsgm$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{New.pdf}}%
-    \put(0.26695034,0.41811047){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\Rs$}}}%
+   % \put(0.26695034,0.41811047){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\Rs$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{New.pdf}}%
   \end{picture}%
 \endgroup%
